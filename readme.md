@@ -48,7 +48,7 @@ source venv/bin/activate
 Assurez-vous que l’application cible est en écoute sur le port configuré dans le script.
 
 ```bash
-python replay_tcp.py
+python replay_tcp.py --pcap <chemin/fichier.pcap>
 ```
 
 ## 💥Problème

@@ -1,0 +1,49 @@
+# Environnement virtuel
+venv/
+.env/
+.env.bak/
+.venv/
+
+# Fichiers compilés Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# VSCode
+.vscode/
+.history/
+
+# Logs et outputs
+*.log
+*.out
+
+# Fichiers temporaires
+*.tmp
+*.swp
+*.bak
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Mac / Linux / Windows système
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Test coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# PyInstaller
+dist/
+build/
+*.spec

@@ -17,25 +17,25 @@ Ce projet permet de rejouer des trames TCP enregistrées (ex. via Wireshark `.pc
 1. **Cloner ce dépôt** :
 
    ```bash
-   git clone https://github.com/ton-utilisateur/replay_tcp_packet.git
+   git clone https://github.com/breizh44/replay-tcp-packet.git
    cd replay_tcp_packet
    ```
 
 2. **Créer un environnement virtuel** :
 
-Sous Windows :
+   Sous Windows :
 
-```bash
-python -m venv venv
-venv\Scripts\activate
-```
+   ```bash
+   python -m venv venv
+   venv\Scripts\activate
+   ```
 
-Sous Linux :
+   Sous Linux :
 
-```bash
-python3 -m venv venv
-source venv/bin/activate
-```
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
 
 3. **Installer les dépendances** :
 
@@ -75,7 +75,7 @@ Voici comment enregistrer les paquets TCP échangés en local entre deux applica
 2. Sélectionner l'interface de capture adaptée
    - Sur Windows, les échanges en 127.0.0.1 ne passent pas par les cartes réseau classiques.
    - Sélectionne "Loopback Adapter" pour les échanges en 127.0.0.1 (souvent fourni par Npcap).
-   - Si aucune interface loopback n'apparait, installe Npcap (https://nmap.org/npcap/).
+   - Si aucune interface loopback n'apparait, installe Npcap (<https://nmap.org/npcap/>).
 3. Filtrer uniquement le port souhaité
 
    - Dans la barre de filtre Wireshark, ajoute "tcp.port == 11000" pour les échanges sur le port 11000.
